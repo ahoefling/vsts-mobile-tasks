@@ -2,7 +2,7 @@
     "manifestVersion": 1,
     "id": "hs-mobile-buildtasks",
     "name": "HS Fork - Mobile App Tasks for iOS and Android",
-    "version": "0.8.0",
+    "version": "0.8.9",
     "publisher": "hoefling-software",
     "public" : false,
     "repository": {
@@ -68,6 +68,12 @@
         },
         {
             "path": "tasks/iOSEntitlementTransform"
+        },
+        {
+            "path": "built"
+        },
+        {
+            "path": "node_modules"
         }
     ],
     "contributions": [

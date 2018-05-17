@@ -1,8 +1,12 @@
 var gulp = require('gulp');
 var ts = require('gulp-typescript');
+var install = require('gulp-install');
 
 
 var buildProject = function(name){
+    gulp.src(["./tasks/" + name + "/package.json"])
+        .pipe(install());
+        
     var tsProject = ts.createProject("./tasks/" + name + "/tsconfig.json");
     return tsProject.src()
         .pipe(tsProject())
@@ -25,6 +29,10 @@ gulp.task('AndroidPackageName', function(){
     return buildProject("AndroidPackageName");
 });
 
-gulp.task('build', ['iOSBUndleIdentifier', 'iOSBumpVersion', 'AndroidBumpVersion', 'AndroidPackageName'], function(){
+gulp.task('iOSEntitlementTransform', function(){
+    return buildProject("iOSEntitlementTransform");
+});
+
+gulp.task('build', ['iOSBUndleIdentifier', 'iOSBumpVersion', 'AndroidBumpVersion', 'AndroidPackageName', 'iOSEntitlementTransform'], function(){
     return null;
 });
