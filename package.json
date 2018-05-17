@@ -1,0 +1,21 @@
+{
+  "name": "vsts-mobile-tasks",
+  "version": "8.0.0",
+  "description": "Tasks for building ios and android applications in VSTS.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesmontemagno/vsts-mobile-tasks.git"
+  },
+  "author": "Jame Montemagno &amp; Andrew Hoefling",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamesmontemagno/vsts-mobile-tasks/issues"
+  },
+  "homepage": "https://github.com/jamesmontemagno/vsts-mobile-tasks#readme",
+  "devDependencies": {
+    "tfx-cli": "^0.5.10"
+  }
+}
