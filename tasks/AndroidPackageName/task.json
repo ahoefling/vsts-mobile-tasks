@@ -1,5 +1,5 @@
 {
-    "id": "a0393340-3465-4b5d-bbc4-0f6b1cd5ae4c",
+    "id": "9fe361ae-702c-4dff-aec7-69c6fac7496b",
     "name": "android-manifest-package-name",
     "friendlyName": "Android Manifest Package Name",
     "description": "Change the package name on your android manifest file at build time.",

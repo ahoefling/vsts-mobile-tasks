@@ -1,5 +1,5 @@
 {
-    "id": "77f3c5c9-713f-4eb6-bd73-42324109ea2e",
+    "id": "63834bd8-fe0a-487f-841b-ca4546ce2f19",
     "name": "ios-bundle-identifier",
     "friendlyName": "iOS Bundle Identifiers",
     "description": "Change the bundle identifier and name in the info.plist file at build time.",

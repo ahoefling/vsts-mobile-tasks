@@ -1,5 +1,5 @@
 {
-    "id": "99796404-38d2-487b-887e-5b581b5c47eb",
+    "id": "6495e944-de67-4e25-8207-db3550ab2dce",
     "name": "android-manifest-version",
     "friendlyName": "Android Manifest Version Numbers",
     "description": "Bump the version of your android manifest file at build time.",

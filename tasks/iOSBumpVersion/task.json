@@ -1,5 +1,5 @@
 {
-    "id": "42284b34-be85-4034-890f-8755ad9f6249",
+    "id": "2d33a98a-f455-4464-8ec6-b73fc2e97dcf",
     "name": "ios-bundle-version",
     "friendlyName": "iOS Bundle Version Numbers",
     "description": "Bump the version of your iOS info.plist file at build time.",

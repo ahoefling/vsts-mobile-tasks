@@ -1,5 +1,5 @@
 {
-    "id": "75829487-759b-4344-b18c-881e7237955d",
+    "id": "a16c5f01-c8c5-4257-a6a7-621ba8d97e09",
     "name": "ios-entitlement-transform",
     "friendlyName": "iOS Entitlements Transform",
     "description": "Transform Entitlement Property of your iOS entitlements.plist file at build time.",
